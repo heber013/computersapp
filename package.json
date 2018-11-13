@@ -1,0 +1,41 @@
+{
+  "name": "computerapp",
+  "version": "1.0.0",
+  "description": "end to end tests for computerapp app",
+  "main": "wdio.config.js",
+  "scripts": {
+    "local-webserver": "npm start --prefix=../",
+    "test": "rm -rf reports; node node_modules/webdriverio/bin/wdio; wdio_ret=$?; forever stopall",
+    "allure-report": "node_modules/.bin/allure generate ./reports/allure-results -c && allure open",
+    "selenium-start": "node_modules/.bin/selenium-standalone start"
+  },
+  "keywords": [
+    "selenium",
+    "web",
+    "testing",
+    "webdriver",
+    "automation"
+  ],
+  "author": "Heber Parrucci <heber013@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "allure-commandline": "^2.5.0",
+    "babel-register": "^6.11.5",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "3.5.0",
+    "wdio-cucumber-framework": "~2.2.2",
+    "webdriverio": "4.13.1",
+    "wdio-selenium-standalone-service": "~0.0.9",
+    "wdio-allure-reporter": "~0.7.0",
+    "wdio-junit-reporter": "~0.4.4",
+    "wdio-spec-reporter": "~0.1.5",
+    "wdio-json-reporter": "^0.3.1"
+  },
+  "devDependencies": {
+    "babel-polyfill": "~6.26.0",
+    "eslint": "~5.0.0",
+    "forever": "~0.15.3"
+  }
+}
