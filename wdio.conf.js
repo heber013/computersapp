@@ -11,9 +11,9 @@ exports.config = {
 
   capabilities: [
     {
-      browserName: 'chrome',
+      browserName: 'firefox',
       // platform: 'Windows 10',
-      // version: '50.0',
+      version: '62.0.3',
       maxInstances: '5',
     },
   ],

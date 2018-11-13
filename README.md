@@ -2,6 +2,9 @@
 
 This repository contains examples of tests implementations using webdriverIO (Selenium - Node.js/JavaScript) It generates Spec, JUNIT, Allure, JSON reporters as well.
 
+### Clone the repository:
+git clone https://github.com/heber013/computersapp
+
 ### Tests Scenarios:
 As part of the tests plan, different scenarios were written, both negative and positives. You can find the scenarios in "features" folder
 
@@ -28,8 +31,11 @@ Above command should print out the version that you have installed.
 Now navigate to root folder and run `npm install` to grab all dependencies for testing framework.
 
 ### Run Tests
+First make sure you have installed the framework dependencies, if you haven't already, you can do it with:
 
-To execute the entire test suite in local development, located in e2e folder, you can execute:
+`npm install`
+
+To execute the entire test suite in local development, located in root folder, you can execute:
 
 `npm run test`
 
