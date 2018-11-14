@@ -8,7 +8,7 @@ git clone https://github.com/heber013/computersapp
 ### Tests Scenarios:
 As part of the tests plan, different scenarios were written, both negative and positives. You can find the scenarios in "features" folder
 
-The ones that have not been automated are marked as @Manual and will not be executed by default. The ones that are automated are markes as @Automated
+The ones that have not been automated are marked as @Manual and will not be executed by default. The ones that are automated are marked as @Automated
 
 ### Prerequisites
 
