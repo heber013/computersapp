@@ -12,9 +12,9 @@ The ones that have not been automated are marked as @Manual and will not be exec
 
 ### Prerequisites
 
-This project is tested on ***Node v8.11.4***.  While earlier versions of node may be compatible, they have not been tested or verified.
+This project is tested on ***Node v8.12***.  While earlier versions of node may be compatible, they have not been tested or verified.
 
-`Chrome browser`: Tests were executed on versions 69 on Ubuntu platform, but should work properly with earlier versions as well.
+`Chrome browser`: Tests were executed on versions 69 and 70 on Ubuntu platform, but should work properly with earlier versions as well.
 
 `JDK 1.8:` Install JDK 1.8+ and make sure class path is set properly. JAVA is require to start `Selenium Server` nothing else.
 
